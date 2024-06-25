@@ -1,0 +1,19 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "on",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "explorer.compactFolders": false,
+  "editor.scrollbar.vertical": "auto",
+  "emmet.includeLanguages": {
+    "erb": "html"
+  },
+  "[ruby]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+  },
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "cSpell.language": "en,pt,pt_BR"
+}
