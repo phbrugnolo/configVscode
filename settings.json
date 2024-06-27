@@ -23,6 +23,10 @@
         "editor.insertSpaces": true,
     },
     "gitlens.views.commitDetails.files.layout": "auto",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2
