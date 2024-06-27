@@ -1,19 +1,30 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.wordWrap": "on",
-  "git.confirmSync": false,
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
-  "remote.autoForwardPortsSource": "hybrid",
-  "explorer.compactFolders": false,
-  "editor.scrollbar.vertical": "auto",
-  "emmet.includeLanguages": {
-    "erb": "html"
-  },
-  "[ruby]": {
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-  },
-  "gitlens.views.commitDetails.files.layout": "tree",
-  "cSpell.language": "en,pt,pt_BR"
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "git.openRepositoryInParentFolders": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "editor.wordWrap": "on",
+    "explorer.compactFolders": false,
+    "editor.scrollbar.vertical": "auto",
+    "workbench.editor.labelFormat": "short",
+    "git.confirmSync": false,
+    "git.ignoreRebaseWarning": true,
+    "explorer.confirmDelete": false,
+    "cSpell.language": "en,pt,pt_BR",
+    "emmet.includeLanguages": {
+        "erb": "html"
+    },
+    "[ruby]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+    "gitlens.views.commitDetails.files.layout": "auto",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    }
 }
