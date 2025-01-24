@@ -1,6 +1,6 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "github.copilot.editor.enableAutoCompletions": true,
     "git.openRepositoryInParentFolders": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -9,26 +9,56 @@
     "git.enableSmartCommit": true,
     "editor.wordWrap": "on",
     "explorer.compactFolders": false,
+    "editor.fontLigatures": false,
     "editor.scrollbar.vertical": "auto",
     "workbench.editor.labelFormat": "short",
     "git.confirmSync": false,
     "git.ignoreRebaseWarning": true,
     "explorer.confirmDelete": false,
     "cSpell.language": "en,pt,pt_BR",
+    "gitlens.views.commitDetails.files.layout": "auto",
+    "remote.autoForwardPortsSource": "hybrid",
+    "workbench.externalBrowser": "chrome",
+    "redhat.telemetry.enabled": true,
     "emmet.includeLanguages": {
-        "erb": "html"
+      "erb": "html"
     },
     "[ruby]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.insertSpaces": true
     },
-    "gitlens.views.commitDetails.files.layout": "auto",
     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
     },
     "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features",
+      "editor.tabSize": 2
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[erb]": {
+      "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
+      "editor.tabSize": 2
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
     }
-}
+  }
+  
