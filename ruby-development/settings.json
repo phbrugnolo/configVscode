@@ -10,5 +10,8 @@
   "files.eol": "\n",
   "emmet.includeLanguages": {
     "erb": "html"
+  },
+  "[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
   }
 }
