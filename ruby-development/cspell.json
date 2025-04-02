@@ -1,0 +1,52 @@
+{
+  "version": "0.2",
+  "language": "en,pt-BR",
+  "dictionaries": ["pt-BR", "en"],
+  "languageSettings": [
+    {
+      "languageId": "ruby",
+      "locale": "en,pt,pt_BR",
+      "allowCompoundWords": true
+    },
+    {
+      "languageId": "erb",
+      "locale": "en,pt,pt_BR",
+      "allowCompoundWords": true
+    },
+    {
+      "languageId": "html",
+      "locale": "en,pt,pt_BR",
+      "allowCompoundWords": true
+    }
+  ],
+  "enabledLanguageIds": [
+    "ruby",
+    "erb",
+    "html",
+    "javascript",
+    "typescript",
+    "css",
+    "json",
+    "markdown"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "pt-BR",
+      "path": "./.cspell/pt-BR.txt"
+    },
+    {
+      "name": "en",
+      "path": "./.cspell/en.txt"
+    }
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    "assets/builds/**",
+    "public/assets/**",
+    "**/vendor/**",
+    "**/tmp/**",
+    "**/log/**",
+    ".yarn/**"
+  ],
+  "words": []
+}
