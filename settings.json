@@ -1,8 +1,6 @@
 {
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": true,
-  "github.copilot.editor.enableAutoCompletions": true,
-  "github.copilot.nextEditSuggestions.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.openRepositoryInParentFolders": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -39,7 +37,7 @@
     "editor.tabSize": 2
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.json-language-features",
     "editor.tabSize": 2
   },
   "[html]": {
@@ -62,5 +60,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
-  }
+  },
+  "diffEditor.ignoreTrimWhitespace": false
 }
