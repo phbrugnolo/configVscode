@@ -20,7 +20,10 @@
   "remote.autoForwardPortsSource": "hybrid",
   "workbench.externalBrowser": "chrome",
   "redhat.telemetry.enabled": true,
-  "codesnap.shutterAction": "copy",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.editing.confirmEditRequestRemoval": false,
+  "terminal.integrated.shellIntegration.enabled": true,
   "emmet.includeLanguages": {
     "erb": "html"
   },
@@ -51,7 +54,7 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[erb]": {
-    "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
     "editor.tabSize": 2
   },
   "[css]": {
@@ -61,5 +64,34 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
-  "diffEditor.ignoreTrimWhitespace": false
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "chat.tools.terminal.autoApprove": {
+    "bundle": true,
+    "puts": true,
+    "rails": true,
+    "bin/rails": true,
+    "docker exec": true,
+    "docker logs": true,
+    "docker ps": true
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "chat.agent.maxRequests": 50,
+  "workbench.editor.empty.hint": "hidden",
+  "docker.extension.enableComposeLanguageServer": false,
+  "makefile.configureOnOpen": true,
+  "terminal.integrated.fontSize": 16
 }
