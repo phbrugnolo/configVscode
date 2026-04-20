@@ -65,7 +65,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.json-language-features",
     "editor.tabSize": 2
   },
   "[dockercompose]": {
@@ -119,5 +119,6 @@
   "workbench.browser.enableChatTools": true,
   "workbench.browser.showInTitleBar": true,
   "workbench.browser.openLocalhostLinks": true,
-  "workbench.colorTheme": "Dark Modern"
+  "workbench.colorTheme": "Dark Modern",
+  "github.copilot.chat.agentDebugLog.fileLogging.enabled": true
 }
