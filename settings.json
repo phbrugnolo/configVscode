@@ -26,6 +26,11 @@
   "dev.containers.logLevel": "trace",
   "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "remote.SSH.showLoginTerminal": true,
+  "security.restrictUNCAccess": true,
+  "security.allowedUNCHosts": [
+    "wsl.localhost",
+    "wsl$"
+  ],
   "emmet.includeLanguages": {
     "erb": "html"
   },
